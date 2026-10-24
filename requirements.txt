@@ -1,0 +1,5 @@
+
+### `requirements.txt`
+
+```text
+dnspython>=2.6,<3

@@ -12,6 +12,8 @@ Phi NO.T-E adalah alat inspeksi jaringan baca-saja untuk belajar dan mendiagnosi
 ```sh
 pkg update
 pkg install python
+pkg install git
+git clone https://github.com/SovSansDev/Phi-NO.T-E.git
 cd /path/ke/folder/phi-no-te
 python -m pip install -r requirements.txt
 PYTHONPATH=src python -m phi_no_te

@@ -1,0 +1,17 @@
+[project]
+name = "phi-no-te"
+version = "1.0.0"
+description = "A safe, read-only network diagnostics and security inspection toolkit for Termux."
+readme = "README.md"
+authors = [{ name = "SansDev" }]
+requires-python = ">=3.11"
+dependencies = [
+    "dnspython>=2.6,<3",
+]
+
+[project.scripts]
+phi-no-te = "phi_no_te.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
